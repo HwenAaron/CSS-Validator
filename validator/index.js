@@ -4,6 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const syntax = csstree.lexer;
 
+//note syntax validation code starts on line 36
+
 //code starts here
 let cssContents = fs.readFileSync("./style.css");
 
